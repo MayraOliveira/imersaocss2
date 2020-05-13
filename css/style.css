@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://livingmags.co.uk/wp-content/uploads/2019/07/astronomy.jpg");
+    background-size: auto 100vh;
+    height: 100vh;
+    font-family: arial;
+}
+
+.menu{
+    background-color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    background-colour:white; 
+    colour: blueviolet;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+    color: whitesmoke;
+}
+
